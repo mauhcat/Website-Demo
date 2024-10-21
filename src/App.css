@@ -6,7 +6,7 @@
 
 :root {
   font-family: "Courier New", Courier, monospace;
-  @apply bg-gray-800 text-slate-100/80;
+  @apply bg-gray-800;
 }
 
 .profile img {
