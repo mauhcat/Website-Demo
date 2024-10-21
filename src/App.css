@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: "Courier New", Courier, monospace;
+  @apply bg-gray-800 text-slate-100/80;
+}
+
+.profile img {
+  border-radius: 50%;
+  border: 3px solid;
+  @apply border-rose-500/65;
+  cursor: pointer;
+}
+
+.card_image {
+  border-radius: 50%;
+  margin-bottom: 20px;
+  padding: 10px;
+  background-repeat: no-repeat;
+  width: 80%;
+}
+
+.card {
+  max-width: 300px;
+  max-height: 600px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  padding: 20px;
+  @apply mt-5 bg-slate-500/45 rounded-xl m-2;
+  cursor: pointer;
+  box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+  transition: 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(106%);
+  z-index: 3;
+  @apply bg-slate-500/80;
+}
+
+.link {
+  border: 2px solid;
+  transition: 0.3s ease-in-out;
+}
